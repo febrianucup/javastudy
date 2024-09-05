@@ -1,8 +1,11 @@
 public class string {
     public static void main(String[] args) {
         
-        //indexof-index (the position) of the first occurrence of a specified text in a string (including whitespace)
+
         String alpabhet="abcdrfghij";
+        String number="12345678";
+
+        //indexof-index (the position) of the first occurrence of a specified text in a string (including whitespace)
         System.out.println(alpabhet.indexOf("c"));
 
         //typeuppercase untuk mengubah string menjadi huruf besar
@@ -12,6 +15,11 @@ public class string {
         
         //length untuk mengukur panjang sebuah string
         System.out.println(alpabhet.length());
+
+        //concat(), can be used to combine 2 or other 
+        System.out.println(alpabhet + "" + number); 
+        //or
+        System.out.println(alpabhet.concat(number));
     }
 }
 
