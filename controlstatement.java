@@ -32,6 +32,16 @@ class contorlstatemnt{
         System.out.println(result);
 
         //switch
-       
+        int kelas=2;
+        switch (kelas) {
+            case 1 :
+                System.out.println("kamu sd kelas 1");
+                break;
+            case 2 :
+                System.out.println("kamu sd kelas 2");
+                break;
+            default:
+                System.out.println("kmau kelas berapa?");
+       }
     }    
 }
