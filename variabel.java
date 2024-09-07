@@ -9,7 +9,7 @@ public class variabel {
         float myFloat=20.2f;
         System.out.println(str + "\n" +  num + "\n" + character + "\n" + myBool + "\n"+ myFloat);
 
-        //multiple variabel
+        //multiple variable
         int x, y, z;
         x=2;
         y=3;
