@@ -14,5 +14,21 @@ public class looping {
             System.out.println(j);
             j++;
         } while (j<10);
+
+        //for loop
+        for (int k=0; k<=5; k+=1){
+            System.out.println(k);
+        }
+
+        //Nested loops
+        //Outer loop
+        for (int u=1; u<=5; u++){
+            System.out.println("outer: " + u);
+
+            //Inner loop
+            for (int r=1; r<=4; r++){
+                System.out.println("inner: " + r);
+            }
+        }
     }
 }
