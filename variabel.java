@@ -18,6 +18,6 @@ public class variabel {
 
         //string format
         double result=20.2222;
-        System.out.println(String.format("%.2f", result));
+        System.out.println(String.format("%.4f", result));
     } 
 }
