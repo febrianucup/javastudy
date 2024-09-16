@@ -5,6 +5,9 @@ class contorlstatemnt{
     public static void main(String[] args) {
         Scanner inTxt=new Scanner(System.in);
         int num=inTxt.nextInt();
+        int a=2;
+        int b=3;
+        int c=4;
         //if, else, else...if
         //if
         if(num==10){
@@ -34,6 +37,17 @@ class contorlstatemnt{
         String hasil=(num!=10) ? "hasillnya bukan 10":"hasilnya adalah 10";
         System.out.println(hasil);
 
+        //nested if
+        if (a>b){
+            if (b>c){
+                System.out.println("benar");
+            }else{
+                System.out.println("salah");
+            }   
+        }else{
+            System.out.println("salah pada cabang 1");
+        }
+
         //switch
         int kelas=2;
         switch (kelas) {
@@ -57,7 +71,7 @@ class contorlstatemnt{
                 break;
             case 3 :
                 System.out.println("nomor 3");
-            default:
+            default://dedault digunakan
                 System.out.println("default");
        }
     }    
