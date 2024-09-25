@@ -1,9 +1,14 @@
+
+import java.util.Scanner;
+
 public class string {
     public static void main(String[] args) {
-        
+        Scanner sc=new Scanner(System.in);
 
         String alpabhet="abcdrfghij";
         String number="12345678";
+        String halo=sc.nextLine();
+        System.out.println(halo.toLowerCase());
 
         //indexof-index (the position) of the first occurrence of a specified text in a string (including whitespace)
         System.out.println(alpabhet.indexOf("c"));
