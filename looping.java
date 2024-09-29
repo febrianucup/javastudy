@@ -23,19 +23,27 @@ public class looping {
         // } while (j<10);
 
         //for loop
-        for (int k=0; k<=5; k++){
-            System.out.println(k);
-        }
+        // for (int k=0; k<=5; k++){
+        //     System.out.println(k);
+        // }
 
-        // Nested loops
-        // Outer loop
-        for (int u=1; u<=4; u++){
-            System.out.println("outer: " + u);
+        // // Nested loops
+        // // Outer loop
+        // for (int u=1; u<=4; u++){
+        //     System.out.println("outer: " + u);
 
-            //Inner loop
-            for (int r=1; r<=u; r++){
-                System.out.println("inner: " + r);
+        //     //Inner loop
+        //     for (int r=1; r<=u; r++){
+        //         System.out.println("inner: " + r);
+        //     }
+        // }
+
+        for (int i=5;i>=1;i--){
+            System.out.print("out "+i);
+            for(int j=1;j<=i;j++){
+                System.out.print(" in "+ j);
             }
+            System.out.println();
         }
 
         // //example
@@ -46,19 +54,19 @@ public class looping {
         //     System.out.println();
         // }
 
-        int A=input.nextInt();
-        int noOfFactor=0;
-        for(int k=1;k<=A;k++){
-            int countOfFactor=0;
-            for(int l=1;l<=k;l++){
-                if(k%l==0){
-                    countOfFactor++;
-                }
-            }
-            if(countOfFactor==2){
-                noOfFactor++;  
-            }
-        }
-        System.out.println(noOfFactor);
+        // int A=input.nextInt();
+        // int noOfFactor=0;
+        // for(int k=1;k<=A;k++){
+        //     int countOfFactor=0;
+        //     for(int l=1;l<=k;l++){
+        //         if(k%l==0){
+        //             countOfFactor++;
+        //         }
+        //     }
+        //     if(countOfFactor==2){
+        //         noOfFactor++;  
+        //     }
+        // }
+        // System.out.println(noOfFactor);
     }
 }
