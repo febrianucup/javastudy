@@ -38,13 +38,13 @@ public class looping {
         //     }
         // }
 
-        for (int i=5;i>=1;i--){
-            System.out.print("out "+i);
-            for(int j=1;j<=i;j++){
-                System.out.print(" in "+ j);
-            }
-            System.out.println();
-        }
+        // for (int i=5;i>=1;i--){
+        //     System.out.print("out "+i);
+        //     for(int j=1;j<=i;j++){
+        //         System.out.print(" in "+ j);
+        //     }
+        //     System.out.println();
+        // }
 
         // //example
         // for(int i=1; i<=5;i++){
@@ -68,5 +68,30 @@ public class looping {
         //     }
         // }
         // System.out.println(noOfFactor);
+
+        int batas=5;
+        for(int i=1; i<=5;i++){
+
+            for(int spasi=i;spasi>1;spasi--){
+                System.out.print("spasi");
+            }
+
+            for(int j=1;j<=5;++j){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+        
+        for(int i=1; i<=5;i++){
+
+            for(int spasi=5;spasi>i;spasi--){
+                System.out.print("spasi");
+            }
+
+            for(int j=1;j<=5;++j){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
     }
 }
