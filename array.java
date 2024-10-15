@@ -14,5 +14,11 @@ public class array {
         }else{
             System.out.println(nama[1]);
         }
+
+        int[] angka={1,2,3};
+
+        for(int i=0;i<=angka.length;i++){
+            System.out.println(angka[i]);
+        }
     }
 }

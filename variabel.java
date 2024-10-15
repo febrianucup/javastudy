@@ -11,7 +11,7 @@ public class variabel {
 
         //multiple variable
         int x, y, z;
-        x=2;
+        x=10;
         y=3;
         z=4;
         System.out.println(x + y + z);
@@ -19,5 +19,9 @@ public class variabel {
         //string format
         double result=20.2222;
         System.out.println(String.format("%.4f", result));
+
+        x++;
+        x++;
+        System.out.println(x++);
     } 
 }

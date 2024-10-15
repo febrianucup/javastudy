@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class controlstatemnt{
+class controlstatement{
 
     public static void main(String[] args) {
         Scanner inTxt=new Scanner(System.in);
