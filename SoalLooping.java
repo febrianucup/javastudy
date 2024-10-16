@@ -9,11 +9,11 @@ public class SoalLooping {
         int n=input.nextInt();
 
         //1
-        // int i=n;
-        // while(i>0){
-        //     System.out.print(i);
-        //     i--;
-        // }
+        int i=n;
+        while(i>0){
+            System.out.print(i);
+            i--;
+        }
 
         //2
         // int i=1, jumlah=1;
@@ -24,8 +24,8 @@ public class SoalLooping {
         // }
         // System.out.println(jumlah);
 
-        //3
-        // int n=6, i;
+        // 3
+        // int i;
         // for(i=1;i<=n;i++){
         //     System.out.print(i*i + " ");
         // }
