@@ -46,7 +46,7 @@ public class looping {
         //     System.out.println();
         // }
 
-        // //example
+        //example
         // for(int i=1; i<=5;i++){
         //     for(int j=1;j<=i;j++){
         //         System.out.print("+");
@@ -54,44 +54,44 @@ public class looping {
         //     System.out.println();
         // }
 
-        // int A=input.nextInt();
-        // int noOfFactor=0;
-        // for(int k=1;k<=A;k++){
-        //     int countOfFactor=0;
-        //     for(int l=1;l<=k;l++){
-        //         if(k%l==0){
-        //             countOfFactor++;
-        //         }
+        int A=input.nextInt();
+        int noOfFactor=0;
+        for(int k=1;k<=A;k++){
+            int countOfFactor=0;
+            for(int l=1;l<=k;l++){
+                if(k%l==0){
+                    countOfFactor++;
+                }
+            }
+            if(countOfFactor==2){
+                noOfFactor++;  
+            }
+        }
+        System.out.println(noOfFactor);
+
+        // int batas=5;
+        // for(int i=1; i<=5;i++){
+
+        //     for(int spasi=i;spasi>1;spasi--){
+        //         System.out.print("spasi");
         //     }
-        //     if(countOfFactor==2){
-        //         noOfFactor++;  
+
+        //     for(int j=1;j<=5;++j){
+        //         System.out.print(j);
         //     }
+        //     System.out.println();
         // }
-        // System.out.println(noOfFactor);
-
-        int batas=5;
-        for(int i=1; i<=5;i++){
-
-            for(int spasi=i;spasi>1;spasi--){
-                System.out.print("spasi");
-            }
-
-            for(int j=1;j<=5;++j){
-                System.out.print(j);
-            }
-            System.out.println();
-        }
         
-        for(int i=1; i<=5;i++){
+        // for(int i=1; i<=5;i++){
 
-            for(int spasi=5;spasi>i;spasi--){
-                System.out.print("spasi");
-            }
+        //     for(int spasi=5;spasi>i;spasi--){
+        //         System.out.print("spasi");
+        //     }
 
-            for(int j=1;j<=5;++j){
-                System.out.print(j);
-            }
-            System.out.println();
-        }
+        //     for(int j=1;j<=5;++j){
+        //         System.out.print(j);
+        //     }
+        //     System.out.println();
+        // }
     }
 }
